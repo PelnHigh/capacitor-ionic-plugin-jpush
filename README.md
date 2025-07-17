@@ -205,8 +205,7 @@ agreePrivacyPolicy() => Promise<void>
 
 ### agreePrivacyPolicy() 仅安卓
 由于国内政策原因 需要同意隐私协议后方可调用的极光推送
-
-  example:
+```typescript
   async startJpush() {
     if (Capacitor.getPlatform() === 'ios') {
       await JPush.startJPush();
@@ -217,6 +216,8 @@ agreePrivacyPolicy() => Promise<void>
     console.log('registrationId:', res.registrationId);
     JPush.cleanTags();
   }
+```
+
 
 
 ### startJPush()
