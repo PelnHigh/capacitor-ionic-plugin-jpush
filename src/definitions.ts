@@ -15,6 +15,11 @@ declare module '@capacitor/cli' {
 
 export interface JPushPlugin {
   /**
+ * 用户同意隐私政策（仅安卓需要）
+ */
+  agreePrivacyPolicy(): Promise<void>;
+
+  /**
    * 启动极光推送服务，即使没有获取到通知权限，也会进行推送服务初始化
    */
   startJPush(): Promise<void>;

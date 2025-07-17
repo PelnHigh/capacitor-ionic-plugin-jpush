@@ -1,6 +1,6 @@
 {
   "name": "capacitor-ionic-plugin-jpush",
-  "version": "7.0.3",
+  "version": "7.0.6",
   "description": "jpush plugin for capacitor7.0",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,7 +13,7 @@
     "ios/Plugin/",
     "CapacitorIonicPluginJpush.podspec"
   ],
-  "author": "zhuxian",
+  "author": "TomPeng",
   "license": "MIT",
   "repository": {
     "type": "git",

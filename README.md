@@ -169,6 +169,7 @@ const JPushMethods = async () => {
 
 <docgen-index>
 
+* [`agreePrivacyPolicy()`](#agreeprivacypolicy)
 * [`startJPush()`](#startjpush)
 * [`setDebugMode(...)`](#setdebugmode)
 * [`setAlias(...)`](#setalias)
@@ -191,6 +192,17 @@ const JPushMethods = async () => {
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### agreePrivacyPolicy()
+
+```typescript
+agreePrivacyPolicy() => Promise<void>
+```
+
+用户同意隐私政策（仅安卓需要）
+
+--------------------
+
 
 ### startJPush()
 
